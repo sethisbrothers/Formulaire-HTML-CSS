@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="formulaire.css">
+        <title>Formulaire en html&css</title>
+    </head>
+    <body>
+        <h1>Formulaire DWWM</h1>
+        <form>
+            <div id="conteneur">
+                <div class="element1"><label>Nom</label></div><div class="element2"><input class="nom" type="text" placeholder="Entrez votre nom" ></div>
+            </div><br>
+            <div id="conteneur">
+                <div class="element1"><label>Email</label></div><div class="element2"><input class="nom" type="email" placeholder="Entrez votre email"></div>
+            </div><br>
+            <div id="conteneur">
+                <div class="element1 satisfaction"><label>Indiquez votre satisfaction au<div class="element3">cours de 1 à 10</div></label></div><div class="element2"><input class="v" type="text" placeholder="numéro de 1 à 10"></div>
+            </div><br>
+            <div id="conteneur">
+                <div class="element1 coach">Qui est votre Coach?</div><div class="element2"><select class="choix"><option>Birante</option><option>Malick</option><option>Mamadou</option></select></div><br>
+            </div>
+            <div id="conteneur">
+                <div class="element1 moment"><label>A quel moment avez-vous <div class="cours">cours?</div></div><br>
+                    <div class="element2">
+                    <input class="jour" type="radio" name="moment">Matin<br>
+                    <input type="radio" name="moment">Après-midi<br>
+                    <input type="radio" name="moment">Soir
+                    </div>
+                </label>
+            </div><br>
+            <div id="conteneur">
+                <div class="element1 langue"><label>Quels outils avez-vous</div><div class="element2 la"> rencontrés jusque là?</div><div class="element3 qui">(Selectionnez tout ce qui</div> <div class="element4 app">s'applique)</div>
+                <div class="element5 boite">
+                    <input class="h" type="checkbox">HTML<br>
+                    <input type="checkbox">CSS<br>
+                    <input type="checkbox">JavaScript<br>
+                    <input type="checkbox">Editeur de texte<br>
+                    <input type="checkbox">Ligne de commande<br>
+                </div>
+            </div>   
+            </label>
+            <div id="conteneur">
+                <div class="element1 vo"><label>Décrivez votre expérience </div><div class="jus">jusque là</div>
+                    <div class="element3"><textarea class="ar" placeholder="Décrivez votre expérience ici..." cols="35" rows="3"></textarea></div>
+                </label>
+            </div><br>
+           <div class="b"> <button class="button">Envoyer</button>
+           </div>
+        </form>
+    </body>
+</html>
